@@ -46,7 +46,8 @@ public class DuplicateFKTest {
             System.out.println();
         }
         Assume.assumeTrue("There should be at least one FK. " +
-                "If this fails, please make sure you set up the DB and tables correctly. See README.md for more details.", numberOfFk >= 1);
+                "If this fails, please make sure you set up the DB and tables correctly. See README.md for more details.",
+                numberOfFk >= 1);
         Assert.assertEquals("There should be exactly one FK", numberOfFk, 1);
     }
 
