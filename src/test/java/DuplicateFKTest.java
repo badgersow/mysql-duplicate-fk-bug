@@ -17,7 +17,6 @@ public class DuplicateFKTest {
     @Before
     public void setup() throws Exception {
         connection = getMySqlConnection();
-        System.out.println("Connection: " + connection);
     }
 
     @After
